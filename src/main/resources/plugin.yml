@@ -1,0 +1,14 @@
+name: RankGifting
+version: '${project.version}'
+main: linchen.rankgifting.RankGifting
+depend: [ LuckPerms ]
+authors: [ linchen, bedtwL]
+description: RankGiftSystem
+
+commands:
+  gift:
+    description: Gift a rank to a player
+    usage: /gift <player>
+  giftrank:
+    description: Gift a specific rank to a player
+    usage: /giftrank <player> <rank>
